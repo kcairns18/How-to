@@ -4,8 +4,11 @@ font-family:"American Typewriter";
 }
 
 #pic1 { 
- display: -webkit-flex; /* Safari */
-    -webkit-justify-content: space-around; /* Safari 6.1+ */
-    display: flex;
-    justify-content: center;
+width: 25%;
+float: right;
+}
+
+#list {
+ width: 25%;
+ float: left;
 }
