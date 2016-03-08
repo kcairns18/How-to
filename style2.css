@@ -9,7 +9,3 @@ font-family:"American Typewriter";
     display: flex;
     justify-content: center;
 }
-img.center {
-    display: block;
-    margin: 0 auto;
-}
