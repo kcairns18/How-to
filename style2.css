@@ -4,6 +4,7 @@ font-family:"American Typewriter";
 }
 
 #pic1 img { 
+ width: 30%;
  display: block;
  margin-left: auto;
  margin-right: auto;
