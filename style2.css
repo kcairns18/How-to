@@ -3,6 +3,21 @@ background-color:#80e5ff;
 font-family:"American Typewriter";
 }
 
+#navigation li {
+display: inline;
+float: left;
+}
+
+#navigation a, #navigation a:visited {
+display: block;
+width: 5em;
+border: 1px solid #000000;
+font-size: 0.8em;
+text-align: center;
+text-decoration: none;
+} 
+
+
 #pic1 img { 
  width: 30%;
  display: block;
