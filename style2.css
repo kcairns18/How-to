@@ -5,7 +5,6 @@ font-family:"American Typewriter";
 
 #navigation li {
 display: inline;
-float: left;
 }
 
 #navigation a, #navigation a:visited {
