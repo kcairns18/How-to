@@ -29,7 +29,7 @@
 
 
 <div class="ss-required-asterisk" aria-hidden="true">* Required</div></div></div>
-<div class="ss-form"><form action="https://docs.google.com/a/paduaacademy.org/forms/d/1NT2CWAhkRFU8ynYSAZHEZPyb3mK0u7HrFMTQdMHRyQo/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
+<div class="ss-form"><form action="https://docs.google.com/a/paduaacademy.org/forms/d/1NT2CWAhkRFU8ynYSAZHEZPyb3mK0u7HrFMTQdMHRyQo/formResponse" method="POST" id="ss-form" target="secret-frame" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
 <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_717249606"><div class="ss-q-title">Name:
@@ -108,4 +108,22 @@
 <a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
 
 <div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic="" aria-relevant="additions">Screen reader support enabled. </div></div>
+
+
+<!-- Form Redirect -->
+
+<!-- Hidden iframe -->
+<iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
+
+<!-- Script to redirect to a custom page -->
+<script>
+// replace "ss-submit" with the ID of your submit button
+document.getElementById("ss-submit").addEventListener("click", function(){
+  // adds a delay because the results page loads before the form has a chance to submit
+  setTimeout(function() {
+    // replace the url in quotes below to where you want to the user to be redirected to
+    window.location = "response2.html";
+  }, 1000);
+});
+</script>
 
