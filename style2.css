@@ -1,25 +1,12 @@
 body {
-.enjoy-css {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 320px;
-  height: 320px;
-  border: none;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: -webkit-radial-gradient(100% 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(0 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(50% 100%, circle, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(100% 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(0 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);
-  background: -moz-radial-gradient(100% 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -moz-radial-gradient(0 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -moz-radial-gradient(50% 100%, circle, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), -moz-radial-gradient(100% 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), -moz-radial-gradient(0 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);
-  background: radial-gradient(circle at 100% 150%, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 150%, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 50% 100%, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), radial-gradient(circle at 100% 50%, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 50%, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);
-  -webkit-background-origin: padding-box;
-  background-origin: padding-box;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-background-size: 100px 50px;
-  background-size: 100px 50px;
-}
+background-color:silver;
+background-image: 
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size:100px 50px;
 font-family:"American Typewriter";
 }
 ul {
